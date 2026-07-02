@@ -11,47 +11,47 @@ print(factorial(n))
 
 
 
-# def length(lst):
-#     count=0;
-#     for i in lst:
-#         count +=1
-#     return count
+def length(lst):
+    count=0;
+    for i in lst:
+        count +=1
+    return count
 
 
-# numbers=[1,2,4,5,2,4,1]
+numbers=[1,2,4,5,2,4,1]
 
-# print(length(numbers))
-
-
+print(length(numbers))
 
 
-# def sum(a,b):
-#   s=a+b
-#   return s
-
-# a=5
-# b=6
-# # print(sum(a,b))
-# def avg_of_nos(a,b,c):
-#   return (a+b+c)/3
-
-# print(avg_of_nos(1,2,3))
 
 
-# def calculator():
-#     a = int(input("First number: "))
-#     b = int(input("Second number: "))
-#     operation = input("Choose (+, -, *, /): ")
+def sum(a,b):
+  s=a+b
+  return s
 
-#     if operation == "+":
-#         print("Result:", a + b)
-#     elif operation == "-":
-#         print("Result:", a - b)
-#     elif operation == "*":
-#         print("Result:", a * b)
-#     elif operation == "/":
-#         print("Result:", a / b)
-#     else:
-#         print("Invalid operation")
+a=5
+b=6
+# print(sum(a,b))
+def avg_of_nos(a,b,c):
+  return (a+b+c)/3
 
-# calculator()
+print(avg_of_nos(1,2,3))
+
+
+def calculator():
+    a = int(input("First number: "))
+    b = int(input("Second number: "))
+    operation = input("Choose (+, -, *, /): ")
+
+    if operation == "+":
+        print("Result:", a + b)
+    elif operation == "-":
+        print("Result:", a - b)
+    elif operation == "*":
+        print("Result:", a * b)
+    elif operation == "/":
+        print("Result:", a / b)
+    else:
+        print("Invalid operation")
+
+calculator()
