@@ -1,0 +1,5 @@
+Python Tutorial for
+ Beginners - Full Course 
+ (with Notes & Practice Questions)
+ if we use both these lines then readline() don't print blank as output because
+ we already read all the value in read()
