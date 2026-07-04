@@ -1,0 +1,5 @@
+OOPs in python
+- `self` is a convention in Python to refer to the instance of the class.
+- It allows you to access other attributes and methods within the same class.
+- When you call a method on an instance, Python automatically passes the instance as the first argument to the
+method.
