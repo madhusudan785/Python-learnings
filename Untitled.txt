@@ -1,0 +1,59 @@
+
+Q-9
+polymorphism is programming is like a method or function 🎭 differently for different works like + it sum if the values are int class concatenate if the values are string class and union if there is a list
+Q-10
+output is bark meow reason is although all the functions name are same in dog cat and animal but the implementation and different memory allocation cut the confusion in python
+init covered it means initialize of the class and if we want some attribute to be created first then we can add in this function 
+
+
+and others are called Dunder functions so that we can add our implementation for example this code
+
+class Complex:
+    def __init__(self,real,immg):
+        self.real=real
+        self.immg=immg
+    def showNumber(self):
+        print(self.real,"i +",self.immg,"j")
+    def __add__(self,num2):
+        newReal=self.real+num2.real
+        newImmg=self.immg+num2.immg
+        return Complex(newReal,newImmg)
+
+num=Complex(2,3)
+num.showNumber()
+num2=Complex(3,8)
+num2.showNumber()
+num3=num+num2
+num3.showNumber()
+and yes those function you have mentioned it is not covered if that are more important in learning ai and ml then for sure know me I'll understand that first
+
+name = self.name this the line of bug we can't assign a variable to a instance 
+
+
+Exception
+
+1- A first print because as that comes first then a arithmetic operation and nothing error there so after that B will print hence there is no error so finally block will be executed D will be printed
+2- in this case start printed but hence we can't divide anything by zero so except block will be Cannot divide by zero executed and printed then end will be printed 
+3-python actual throw var name is not defined  
+
+def divide(a, b):
+    try:
+        divide=a/b
+        return divide
+    except:
+        print("You are dividing a value with 0")
+    finally:
+        print("Operation Finished")
+
+print(divide(12,0))
+
+FileNotFound exception should be encountered
+
+raise ValueError("Invalid amount")this one is always better than a print statement because it particularly shows the error where found and actual reason
+
+first option is not gonna i do
+yes we can consider skip the bad row
+
+except Exception: 
+means it's generic exception
+and except ZeroDivisionError: is a particular error so that one can know the actual reason of error 
