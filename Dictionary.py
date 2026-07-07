@@ -13,7 +13,7 @@ dict["name"]="milan"
 print(dict.get("name"))#no error simply return NOne
 print(dict["name"])#give us error if key is not present
 dict.update(new_dict)
-print(dict)
+# print(dict)
 null_dict={}
 
 # null_dict["name"]="madhu"
@@ -29,7 +29,8 @@ nested_dict={
             }
 }
 print(nested_dict["chap"]["chapter1"])
-print("output is in list format:",list(nested_dict.keys()))
+for i in 
+# print("output is in list format:",list(nested_dict.keys()))
 print("output is in list format:",list(nested_dict.values()))
 print(nested_dict.items())
 #assignment
@@ -38,16 +39,16 @@ dictq={
     "table":["a piece of furniture","list of facts"],
     "cat":"a small animal"
 }
-print(dictq)
+# print(dictq)
 
-mark_dict={}
-mark1=input("enter your sub mark:")
-mark_dict.update({"phy":mark1})
-mark2=input("enter your sub mark:")
-mark_dict.update({"chm":mark2})
-mark3=input("enter your sub mark:")
-mark_dict.update({"math":mark3})
-print(mark_dict)
+# mark_dict={}
+# mark1=input("enter your sub mark:")
+# mark_dict.update({"phy":mark1})
+# mark2=input("enter your sub mark:")
+# mark_dict.update({"chm":mark2})
+# mark3=input("enter your sub mark:")
+# mark_dict.update({"math":mark3})
+# print(mark_dict)
 
 student = {
     "marks": [10, 20]
@@ -57,4 +58,4 @@ mark= student["marks"]
 
 mark.append(30)
 
-print(student)
+# print(student)

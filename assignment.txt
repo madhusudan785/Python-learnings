@@ -1,0 +1,24 @@
+my answer is i can't fig it out so i tried this print(dir(item)) still i can't find which one is calling next() but i guess for loop when getting back to check the condition it will call next() it is my guess becuase this concept not discussed in that video 
+
+hey i have tried by mistakenly while watching video what happened here in first two print we move the iter to 10 and 20 now in for loop we only get 30
+
+ in list the usage of memory less, reason i don't to make any guess expect from you 
+ if i store bulk data in as list it may contain data that is unwanted for my model by the use for generators i can filter map my data as i only know these terms in java but I'll study in python as well about filter() and map()
+
+def even_numbers(n):
+    current=1
+    while current<=n:
+        if current%2==0:
+            yield current
+        current +=1
+
+nums=even_numbers(20)
+for num in nums:
+    print(num)
+
+
+use a tuple for this 
+
+1,2 and in the loop it will print 3,4 the answer is already in question 2
+
+

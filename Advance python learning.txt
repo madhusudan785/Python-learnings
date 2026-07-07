@@ -1,0 +1,40 @@
+
+result=[mark for mark in marks if mark>=40]
+print(result)
+
+result_2 = list(map(str.upper, names))
+
+salary_increase = {salary * 0.1 for salary in employees.values()}
+
+
+my_set={n*n for n in numbers}
+
+filter(...)
+list comprehension both are use full but i will choose list i have extra hand to filter data when data size is so large large
+
+in this situation i trird 3 of them but
+for item in students:
+    name = item["name"]
+    marks = item["marks"]
+    if marks > 50:
+        print(name)
+result_dict = list(filter(lambda student: student["marks"] >= 50, students))
+result_dict=[student for student in students if student["marks"]>=50]
+
+I choose list comprehension when...
+
+I'm transforming data.
+names = [
+    student["name"]
+    for student in students
+]
+
+
+def passed(student):
+    return student["marks"] >= 40
+
+result = list(filter(passed, students))
+
+Now the filtering logic has a reusable name.
+
+
