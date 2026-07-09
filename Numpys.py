@@ -50,16 +50,34 @@ d=np.zeros((3,4)) # mention the dimensions
 # arr=np.array([[1,2,3]])
 # r=np.repeat(arr,3, axis=0)
 # print(r)
-            
-arr=np.ones((5,5))
-z=np.zeros((3,3))
-z[1,1]=9
-arr[1:-1,1:4]=z
-print(arr)
-print(z)
-student_marks = np.array([
-[90,80],
-[85,92],
-[78,81]
-])
-print(student_marks.shape)
+
+# arr=np.ones((5,5))
+# z=np.zeros((3,3))
+# z[1,1]=9
+# arr[1:-1,1:4]=z
+# print(arr)
+# print(z)
+# student_marks = np.array([
+# [90,80],
+# [85,92],
+# [78,81]
+# ])
+# print(student_marks.shape)
+#-----------------DOT Product --------------#
+# print(np.dot(a,b))
+
+#--------Linear Alg------#
+c=np.identity(3)
+# print(np.linalg.det(c))
+
+stats= np.array([[1,2,3],
+            [4,5,6]])
+
+# print(np.min(stats))
+# print(np.max(stats))
+# print(np.min(stats,axis=1))
+# print(np.sum(stats,axis=1))
+
+
+
+

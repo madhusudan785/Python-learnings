@@ -39,11 +39,10 @@ q=np.array([
 
 
 a = np.array([[1,2],
-              [3,4]])
+            [3,4]])
 
 b = np.array([[5,6],
-              [7,8]])
+        [7,8]])
 
-print(a * b)
-#-----------------DOT Product --------------#
-print(np.dot(a,b))
+# print(a * b)
+
